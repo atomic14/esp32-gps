@@ -1,0 +1,6 @@
+[submodule "lib/nmea_parser/NemaTode"]
+	path = lib/nmea_parser/NemaTode
+	url = git@github.com:ckgt/NemaTode.git
+[submodule "lib/TFT_eSPI"]
+	path = lib/TFT_eSPI
+	url = git@github.com:Bodmer/TFT_eSPI.git
