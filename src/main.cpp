@@ -49,6 +49,7 @@ void loop()
   display.printf("Time: %s\n", gps->get_fix().timestamp.toString().c_str());
   display.printf("Lat: %f\n", gps->get_fix().latitude);
   display.printf("Lng: %f\n", gps->get_fix().longitude);
+  display.printf("Speed: %f\n", gps->get_fix().speed);
   display.printf("Almanac: %.1f%% complete\n", gps->get_fix().almanac.percentComplete());
 #endif
   delay(5000);
